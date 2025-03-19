@@ -16,7 +16,7 @@ Node* createCircularList(int N) {
         
         if (head == NULL) {
             head = newNode;
-            head->next = head;  // Circular link
+            head->next = head;  
         } else {
             temp->next = newNode;
             newNode->next = head;
